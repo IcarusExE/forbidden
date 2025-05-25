@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Site Kapalı</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      font-family: Arial, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(-45deg, #000, #330000, #000);
+      background-size: 400% 400%;
+      animation: gradientBG 10s ease infinite;
+      color: white;
+      text-align: center;
+    }
+
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .warning-box {
+      background-color: rgba(0, 0, 0, 0.7);
+      border: 2px solid red;
+      border-radius: 12px;
+      padding: 40px;
+      box-shadow: 0 0 20px red;
+      max-width: 500px;
+    }
+
+    .warning-box img {
+      width: 100px;
+      margin-bottom: 20px;
+    }
+
+    .warning-box h1 {
+      color: red;
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    .warning-box p {
+      font-size: 1.1em;
+      margin-bottom: 10px;
+    }
+
+    .date {
+      margin-top: 20px;
+      font-size: 0.9em;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <div class="warning-box">
+    <img src="warning.webp" alt="Uyarı İkonu">
+    <h1>Uyarı!</h1>
+    <p>Bu website telif hakları nedeniyle kapatıldı.</p>
+    <div class="date">Kapanış Tarihi: 25 Mayıs 2025</div>
+  </div>
+</body>
+</html>
