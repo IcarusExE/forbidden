@@ -1,0 +1,22 @@
+{
+  "ValidKeys": [
+    {
+      "Key": "ABC123XYZ789",
+      "IsActive": true,
+      "ExpiryDate": "2024-12-31T23:59:59",
+      "Owner": "Kullanıcı1"
+    },
+    {
+      "Key": "DEF456UVW012",
+      "IsActive": true,
+      "ExpiryDate": null,
+      "Owner": "Kullanıcı2"
+    },
+    {
+      "Key": "GHI789RST345",
+      "IsActive": false,
+      "ExpiryDate": "2024-06-30T23:59:59",
+      "Owner": "Kullanıcı3"
+    }
+  ]
+}
